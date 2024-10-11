@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LE flair Studios</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="(link unavailable)" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="title">Le Flair Studios</h1>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+        <ul class="catalogue-links">
+            <li><a href="#">Catalogue</a></li>
+        </ul>
+        <div class="bag-section">
+            <span>Bag </span>
+            <div class="bag-count">0</div>
+        </div>
+    </nav>
+
+    <div class="image-container">
+        <img src="polo.jpg" alt="Image" class="main-image" usemap="#image-map">
+    </div>
+    <div class="image-overlay">
+        <h2 class="image-title">Embrace what <br> makes You-You</h2>
+        <button class="discover-btn">Discover Now</button>
+    </div>
+
+        <map name="image-map">
+            <area shape="circle" coords="100,100,50" href="#" alt="Shirt 1" data-name="Polo Shirt" data-price="$200" class="shirt-area">
+            <area shape="circle" coords="300,200,50" href="#" alt="Shirt 2" data-name="Casual Shirt" data-price="$390" class="shirt-area">
+            <area shape="circle" coords="500,100,50" href="#" alt="Shirt 3" data-name="Formal Shirt" data-price="$450" class="shirt-area">
+            <area shape="circle" coords="700,200,50" href="#" alt="Shirt 4" data-name="Sports Shirt" data-price="$250" class="shirt-area">
+        </map>
+    <div class="shirt-info" style="display: none;">
+        <h3 id="shirt-name"></h3>
+        <p id="shirt-price"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
