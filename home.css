@@ -1,5 +1,6 @@
 body{
     overflow-x:hidden ;
+    font-family: sans-serif;
 }
 
 .navbar {
@@ -146,7 +147,6 @@ body{
     background-color: #fff;
     color: #000;
     padding: 2px 6px;
-    border-radius: 50%;
     font-size: 12px;
     margin-left: 5px;
 }
@@ -201,6 +201,281 @@ body{
     left: 850px;
     box-shadow: 0 0 10px whitesmoke;
 }
+
+.bottom-section {
+    position: relative;
+    background-color: #000;
+    padding: 100px 0;
+    
+}
+
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.bottom-content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: start;
+    margin-bottom: -100px;
+    
+    
+}
+
+.bottom-content h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    margin-top: -60px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-weight: 5;
+}
+
+
+.subscribe-btn {
+    background-color:transparent;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 20px;
+    border: 1px solid whitesmoke;
+    margin-top: -90px;
+    
+}
+.subscribe-btn:hover{
+    background-color: blue;
+    border: none;
+}
+
+/* Form container styling */
+form {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Aligns form to the right */
+    margin-left: auto;
+    margin-right: 40px;
+    padding: 20px; /* Padding added inside the form */
+    background-color: white; /* Background color for form */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for form */
+    width: fit-content; /* Ensures form width adjusts dynamically */
+
+}
+form p{
+    color: black;
+    margin-right: 295px;
+    font-size: 13px;
+    font-style: bold;
+}
+form h6{
+    color: #000;
+    margin-right: 260px;
+}
+/* Input field styling */
+form input {
+    width: 500px;
+    height: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    color:black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: silver;
+}
+form input::placeholder {
+    color: black; /* This changes the placeholder text color */
+}
+
+/* Button styling */
+form button {
+    width: 200px;
+    height: 40px;
+    background-color:rgb(48, 48, 216);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    margin-top: -50px;
+    
+}
+
+/* Hover effects */
+form button:hover {
+    background-color:whitesmoke;
+    color: blue;
+    box-shadow: 0 0 2px blue;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    form input, form button {
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    form input, form button {
+        width: 150px;
+    }
+}
+.main{
+   
+    width:100%;
+   
+    
+    background-color: black;
+  
+    /* background-color: rgb(194, 35, 35); */
+}
+.d1{
+    width:100%;
+    
+    /* background-color: brown; */
+
+}
+.d1 h2{
+    color: white;
+    font-size: 20px;
+    padding: 0px 30px;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    font-weight: lighter;
+    
+}
+.s1{
+    padding: 20px 30px;
+    border: 2px dotted rgb(70, 70, 70);
+    width: 35%;
+    /* background-color: blue; */
+}
+.s2{
+    padding: 20px 33px;
+    border: 2px dotted rgb(70, 70, 70);
+    width: 35%;
+    /* background-color: rgb(71, 219, 26); */
+}
+.s3{
+    padding: 20px 33px;
+    border: 2px dotted rgb(70, 70, 70);
+    width: 35%;
+    /* background-color: rgb(142, 57, 11); */
+}
+.d2{
+    display: flex;
+    justify-content: space-between;
+
+}
+p{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.link{
+    display: flex;
+    height: 285px;
+}
+.c1{
+    /* background-color: blueviolet; */
+    padding: 40px 40px;
+    width: 30%;
+}
+.c2{
+    /* background-color: aquamarine; */
+    padding: 40px 40px;
+    padding-left: 100px;
+    width: 30%;
+    
+    /* background-color: blue; */
+}
+.c3{
+    /* background-color: blanchedalmond; */
+    padding: 40px 40px;
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+     margin-left:140px ;
+}
+
+.a1{
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(153, 152, 152);
+    font-size: 13px;
+}
+h3{
+    color: white;
+}
+p{
+    font-size: 13px;
+    color: rgb(153, 152, 152);
+}
+
+.circle{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon{
+    /* background-color: blueviolet; */
+    padding-left: 40px ;
+    /* margin-left: 40px; */
+    gap:10px;
+    
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.circle i{
+    font-size: 20px;
+
+}
+a:hover{
+    color: rgb(222, 222, 222)
+
+}
+.circle:hover{
+   background-color: rgb(174, 174, 174);
+}
+h3{
+    font-size: 15px;
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+nav h6{
+    padding:  10px 15px;
+    font-size: 11px;
+
+    color: white;
+}
+.dline{
+    height:1px;
+    width:100%;
+    border: 1px dotted rgb(70, 70, 70);
+}
+
+
+
+
+
 
 
 
